@@ -1,0 +1,210 @@
+import { combineTheme, ThemeColors } from '.'
+import { t } from '../localization'
+
+const palette = {
+  main: '#481C81',
+  blue: '#007AFF',
+  white: '#FFFFFF',
+  black: '#2F2A2A',
+  darkgray: '#F2F2F2',
+  gray: '#AEAEAE',
+  gray_0_2: '#413D3E',
+  darkLight: '#434343',
+  darkgray2: '#535052',
+  separator: '#626060',
+  transparent: 'transparent',
+  error: '#ED4949',
+}
+
+export default {
+  dark: true,
+  name: t('themes_dark'),
+  colors: combineTheme({
+    separator: {
+      default: 'rgba(174, 174, 174, 0.2)',
+    },
+    border: 'rgba(138, 138, 143, 0.2)',
+    fetching: palette.main,
+    shadow: 'transparent',
+    header: {
+      title: palette.darkgray,
+    },
+    codeInput: {
+      border: palette.main,
+      background: palette.darkLight,
+      text: palette.darkgray,
+    },
+    background: {
+      default: palette.black,
+      lightgrey: palette.darkLight,
+      line: 'rgba(174, 174, 174, 0.2)',
+      main: palette.main,
+    },
+    error: {
+      default: palette.error,
+    },
+    tabBar: {
+      activeTintColor: palette.white,
+      inactiveTintColor: palette.gray,
+      inactiveBackgroundColor: palette.black,
+      activeBackgroundColor: palette.black,
+    },
+    badge: {
+      text: palette.darkgray,
+      backgroud: palette.main,
+    },
+    alert: {
+      wrapper: 'rgba(0 ,0 ,0 ,0.6)',
+      background: palette.darkLight,
+      border: 'rgba(255, 255, 255, 0.24)',
+      buttonText: palette.blue,
+    },
+    switch: {
+      text: 'rgba(242, 242, 242, 0.8)',
+      count: palette.gray,
+      checkBox: {
+        active: palette.main,
+        inactive: palette.gray,
+        checked: palette.white,
+      },
+      radiobutton: {
+        active: palette.darkgray,
+        inactive: palette.gray,
+      },
+      switch: {
+        trackActive: palette.main,
+        trackInactive: 'rgba(174, 174, 174, 0.7)',
+        toggleActive: palette.darkgray,
+        toggleInactive: palette.white,
+      },
+    },
+    text: {
+      default: palette.darkgray,
+      placeholder: palette.gray,
+      title: palette.darkgray,
+      date: '#DCDCDC',
+      secondary: palette.gray,
+      action: palette.darkgray,
+    },
+    myTripTypeSelector: {
+      activeText: palette.darkgray,
+      activeBorder: palette.gray,
+      inactiveText: palette.gray,
+      inactiveBorder: 'rgba(174, 174, 174, 0.2)',
+    },
+    button: {
+      primary: {
+        background: palette.main,
+        text: palette.white,
+        border: palette.main,
+        icon: palette.white,
+      },
+      secondary: {
+        background: palette.transparent,
+        text: palette.darkgray,
+        border: palette.gray,
+        icon: palette.gray,
+      },
+      disabled: {
+        background: '#DCDCDC',
+        text: '#FFFFFF',
+        icon: '#FFFFFF',
+        border: '#DCDCDC',
+      },
+      bordered: {
+        background: palette.transparent,
+        text: palette.main,
+        icon: palette.main,
+        border: palette.transparent,
+      },
+    },
+    textInput: {
+      background: palette.darkLight,
+      border: palette.main,
+      error: palette.error,
+      borderActive: palette.white,
+      borderInActive: palette.gray,
+    },
+    icon: {
+      default: palette.gray,
+      action: palette.main,
+      disabled: '#DCDCDC',
+      secondary: palette.gray,
+      topRight: palette.darkgray,
+      topRight2: palette.darkgray,
+      action2: palette.white,
+    },
+    selector: {
+      activeText: palette.darkgray,
+      inactiveText: palette.darkgray,
+      activeBorder: palette.gray,
+      inactiveBorder: 'rgba(138, 138, 143, 0.4)',
+      activeBackground: palette.transparent,
+      inactiveBackground: palette.transparent,
+      activeIcon: palette.darkgray,
+      inactiveIcon: palette.darkgray,
+    },
+    tripInfo: {
+      background: palette.darkLight,
+      header: {
+        label: palette.darkgray,
+        cancelledLabel: palette.gray,
+        status: palette.darkgray,
+      },
+      body: {
+        city: palette.darkgray,
+        cityVisited: palette.darkgray,
+        cityCancelled: palette.gray,
+        time: palette.gray,
+        timeCancelled: palette.gray,
+        address: palette.gray,
+        addressCancelled: palette.gray,
+      },
+      footer: {
+        active: palette.gray,
+        cancelled: palette.darkgray,
+        currency: 'rgba(40, 40, 40, 0.6)',
+        currencyCanceled: 'background: rgba(40, 40, 40, 0.6)',
+        currencyBackground: '#9374CB',
+        currencyCancelledBackground: 'rgba(174, 174, 174, 0.5)',
+        avatar: palette.darkgray,
+        avatarCancelled: palette.gray,
+        avatarBackground: 'rgba(255, 255, 255, 0.7)',
+        avatarCancelledBackground: 'rgba(174, 174, 174, 0.1)',
+        textPrimary: palette.darkgray,
+        textSecondary: palette.gray,
+        main: palette.darkgray,
+      },
+    },
+    waypointImage: {
+      background: palette.darkLight,
+      active: palette.black,
+      inactive: palette.black,
+      cancelled: palette.gray,
+      visitedLine: palette.gray,
+    },
+    imagePicker: {
+      background: palette.darkLight,
+    },
+    avatar: {
+      background: palette.darkLight,
+      backgroundOpacity: 'rgba(255, 255, 255, 0.7)',
+    },
+    listItem: {
+      avatar: palette.darkgray,
+      avatarBackground: 'background: rgba(174, 174, 174, 0.4)',
+      userAvatar: palette.darkgray,
+      userAvatarBackground: 'background: rgba(174, 174, 174, 0.4)',
+    },
+    tripComfortItem: {
+      activeIcon: palette.gray,
+      activeText: palette.darkgray,
+      inactiveIcon: '#615F61',
+      inactiveText: palette.gray,
+    },
+    filterItem: {
+      border: palette.darkLight,
+      background: palette.darkLight,
+    },
+  }),
+}

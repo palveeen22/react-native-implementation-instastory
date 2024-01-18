@@ -1,0 +1,88 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "isNew": true,
+      "date": "2020-01-01T12:00",
+      "title": "Date format I should use in my search query",
+      "message": "<ISO datetime> ::= YYYYMMDDThhmmss[,ffff]Z <W3C datetime> ::= YYYY-MM-DD[Thh:mm:ss[.ffff]][<timezone>]."
+    },
+    {
+      "id": 2,
+      "isNew": false,
+      "date": "2020-01-02T15:39",
+      "title": "How to manipulate date and time in JavaScript",
+      "message": "In theory, handling dates as a developer is as simple as creating, storing, and, if necessary, manipulating dates."
+    },
+    {
+      "id": 3,
+      "isNew": false,
+      "date": "2020-01-03T14:05",
+      "title": "Terraformを使ったAzure App Serviceのバックアップとログの",
+      "message": "本記事はFIXERが提供する「cloud.config Tech Blog」に掲載された「Terraformを使ったAppServiceのバックアップとAppServiceログの設定」を再編集した."
+    },
+    {
+      "id": 4,
+      "isNew": false,
+      "date": "2020-01-04T18:55",
+      "title": "British tourists charged £1000s for pier visits in billing blunder",
+      "message": "British seaside resorts are famous for their piers, walkways that stretch out over the sea so that visitors can get the feeling of being “at."
+    },
+    {
+      "id": 5,
+      "isNew": false,
+      "date": "2020-01-05T14:05",
+      "title": "It's Time for an HTML5 Time Tag",
+      "message": "The <time> tag and its datetime attribute are supported by all the major browsers including Google Chrome 6.0+, Internet Explorer/Edge 9.0+."
+    },
+    {
+      "id": 6,
+      "isNew": false,
+      "date": "2020-01-06T04:33",
+      "title": "Inbox of Tricks: Stand Out with Gmail's New Promotion Tools",
+      "message": "The inbox is a competitive place. Marketers strive to craft compelling subject lines which shine that little bit brighter than the rest."
+    },
+    {
+      "id": 7,
+      "isNew": false,
+      "date": "2020-01-07T04:01",
+      "title": "New FAQs: Google Jobs Feature In Search",
+      "message": "Google's webmaster team, specifically Mariya Moeva from Google, has just posted a new FAQ around this feature. This is tailored for webmasters."
+    },
+    {
+      "id": 8,
+      "isNew": false,
+      "date": "2020-01-08T08:33",
+      "title": "VBScript and Task Scheduler 2.0 : Creating Scheduled Tasks",
+      "message": "My next task was to build a script that could create all the options available for a new task. I found that objects available actually presented."
+    },
+    {
+      "id": 9,
+      "isNew": false,
+      "date": "2020-01-09T08:18",
+      "title": "macOS Sierra: Unified Logging, la nueva manera de guardar",
+      "message": "YYYYMMDDTHHMMSS.tracev3 . Estos archivos son binarios que requieren del uso de la nueva utilidad de análisis de logs en macOS Sierra para."
+    },
+    {
+      "id": 10,
+      "isNew": false,
+      "date": "2020-01-10T23:41",
+      "title": "Putting CLI Skeletons to Work in AWS",
+      "message": "You can script Amazon Web Services tasks using the command-line interface to build a skeleton script. By Brien Posey; 06/15/2018."
+    },
+    {
+      "id": 11,
+      "isNew": false,
+      "date": "2020-01-11T04:22",
+      "title": "Java 8 Features Supported by Spring 4",
+      "message": "spring code base uses a lot of functional interfaces and with java 8, lambda expressions can be used to write cleaner and compact code. we can."
+    },
+    {
+      "id": 12,
+      "isNew": false,
+      "date": "2020-01-11T04:22",
+      "title": "En finir avec CSV ou Excel pour échanger des données",
+      "message": "Le gros intérêt de json c'est qu'il mappe directement a des objets (le o de json), et est super flexible niveau schéma. Ces 2 points n'ont que peu d'intérêt."
+    }
+  ]
+}
